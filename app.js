@@ -3,7 +3,7 @@ const userTableBody = document.getElementById('userTableBody');
 const submitBtn = document.getElementById('submitBtn');
 
 
-const apiURL = 'https://crud-backend.onrender.com/user';
+const apiURL = 'https://crud-backend-0dzp.onrender.com/';
 
 async function fetchUsers() {
     const res = await fetch(apiURL);
